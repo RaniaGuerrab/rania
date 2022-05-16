@@ -58,15 +58,7 @@ namespace WindowsFormsApp1
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             // Test de git
-            DataRow l;
-            l = ds.Tables["local"].NewRow();
-            l[0] = int.Parse(guna2TextBox1.Text);
-            l[1] = guna2TextBox2.Text;
-            l[2] = guna2ComboBox1.Text;
-            ds.Tables[" local"].Rows.Add(l);
-            MessageBox.Show("ajouter bien");
-            enrg();
-            vider();
+            
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
